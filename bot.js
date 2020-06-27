@@ -55,7 +55,7 @@ T.post(
   
 console.log(covid_brasil)
 });
-}, 10000);
+}, 7200000);
 
 fs.readdir("./events/", (err, files) => {
     if (err) return console.error(err);
