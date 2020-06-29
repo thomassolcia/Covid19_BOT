@@ -95,7 +95,7 @@ Atualizados: ${c.getDate()}.0${b.getMonth()+1}.${a.getFullYear()}
       )
       console.log('Criando um tweet com as informações obtidas...')
     });
-  }, 3600000);
+  }, 28800000);
 });
 
 fs.readdir("./events/", (err, files) => {
