@@ -1,6 +1,6 @@
 {
-  "name": "proverbiosbot",
-  "version": "1.0.0",
+  "name": "covid19_brazil",
+  "version": "1.0.2",
   "description": "",
   "main": "bot.js",
   "scripts": {
