@@ -49,7 +49,7 @@ Testes/1Mi: ${testesM}
 Casos/1Mi: ${casosM}
 Mortes/1Mi: ${mortesM}
 
-#covid #covid19 #brasil #corona #coronavirus`)
+#covid #brasil #coronavirus #quarentena #pandemia`)
 
 console.log('Criando um tweet com as informações obtidas...')
 
@@ -108,7 +108,7 @@ Testes/1Mi: ${testesM}
 Casos/1Mi: ${casosM}
 Mortes/1Mi: ${mortesM}
 
-#covid #covid19 #brasil #corona #coronavirus`)
+#covid #brasil #coronavirus #quarentena #pandemia`)
 
 console.log('Criando um tweet com as informações obtidas...')
 
@@ -122,7 +122,7 @@ T.post(
   
   console.log('Tweet criado com sucesso!\n')
     });
-  }, 28800000);
+  }, 43200000);
 });
 
 fs.readdir("./events/", (err, files) => {
