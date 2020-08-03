@@ -10,7 +10,7 @@ const twit=require('twit');
 const T = new twit(config)
 
 console.log('Buscando informações sobre o COVID...')
-fetch(`https://corona.lmao.ninja/v2/countries/br`)
+fetch(`https://corona.lmao.ninja/v3/covid-19/countries/br`)
     .then(res => res.json())
     .then(data1 => {
       let casos = data1.cases.toLocaleString();
@@ -69,7 +69,7 @@ client.on('ready', () => {
     var d = new Date();
 
 console.log('Buscando informações sobre o COVID...')
-fetch(`https://corona.lmao.ninja/v2/countries/br`)
+fetch(`https://corona.lmao.ninja/v3/covid-19/countries/br`)
     .then(res => res.json())
     .then(data1 => {
       let casos = data1.cases.toLocaleString();
